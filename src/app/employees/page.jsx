@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+	title: "Hot Beans - Jobs & Vacancies",
+	description: "Professional Website Developers",
+};
+
 export default function Page() {
 	return (
 		<main className="relative max-w-full overflow-x-hidden mb-5">
