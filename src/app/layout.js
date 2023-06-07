@@ -1,9 +1,9 @@
 import Script from "next/script";
 import "./globals.css";
 
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Hot Beans",
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
 				src="https://aly.felixklg.dev/VwDrVUy9RFqbFd6"
 				data-website-id="5cc477cc-029c-463f-b859-7e008595bcfd"
 			/>
-			<body className={inter.className}>{children}</body>
+			<body className={montserrat.className}>{children}</body>
 		</html>
 	);
 }

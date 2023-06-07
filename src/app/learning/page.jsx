@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Hot Beans - Learning Resources",
-	description: "Professional Website Developers",	
+	description: "Professional Website Developers",
 };
 
 export default function Page() {
@@ -17,7 +17,7 @@ export default function Page() {
 						width={44}
 						height={44}
 						className="h-11 rounded-md"
-						src="https://picsum.photos/256/256"
+						src="/bean.png"
 						alt="Website Logo"
 					/>
 				</Link>
@@ -32,10 +32,10 @@ export default function Page() {
 				<div className="self-center">
 					<h1 className="font-bold text-6xl">Learning Resources</h1>
 					<p className="max-w-md pt-0.5 text-stone-800">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore. Ut enim ad minim
-						veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-						ea commodo consequat.
+						At Hot Beans, we believe in the power of education to shape the
+						future of our industry. We are committed to sharing our knowledge
+						and expertise with aspiring web designers, developers, and digital
+						enthusiasts, nurturing the next generation of talent.
 					</p>
 				</div>
 

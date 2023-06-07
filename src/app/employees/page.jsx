@@ -17,7 +17,7 @@ export default function Page() {
 						width={44}
 						height={44}
 						className="h-11 rounded-md"
-						src="https://picsum.photos/256/256"
+						src="/bean.png"
 						alt="Website Logo"
 					/>
 				</Link>
@@ -32,10 +32,10 @@ export default function Page() {
 				<div className="self-center">
 					<h1 className="font-bold text-6xl">Jobs & Vacancies</h1>
 					<p className="max-w-md pt-0.5 text-stone-800">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore. Ut enim ad minim
-						veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-						ea commodo consequat.
+						In the vibrant tapestry of Hot Beans, our employees are the vibrant
+						threads that bring our company to life. They are the heartbeat of
+						our organization, embodying the values and spirit that make Hot
+						Beans a trusted name in the industry.
 					</p>
 				</div>
 
@@ -59,16 +59,18 @@ export default function Page() {
 							width={64}
 							height={64}
 							className="rounded-md"
-							src="/1e84459ce6beb3599843d4ab40c27561.png"
+							src="/persons/1e84459ce6beb3599843d4ab40c27561.png"
 							alt="Linder Profile Picture"
 						/>
-						<div className="flex flex-col justify-center ml-2">
+						<div className="flex flex-col justify-center ml-2 overflow-hidden">
 							<span className="font-bold">Linder</span>
-							<span className="font-light truncate">Rust®️ Developer</span>
+							<span className="font-light truncate">
+								Sr. Fullstack Developer
+							</span>
 						</div>
 					</div>
 					<hr className="my-2 border-stone-400/50" />
-					<p className="text-stone-700">11/10 Coder</p>
+					<p className="text-stone-700">Interests: Rust & WASM</p>
 				</div>
 				<div className="bg-stone-300/70 w-64 max-w-64 max-h-64 rounded-md p-2">
 					<div className="flex flex-row">
@@ -76,16 +78,16 @@ export default function Page() {
 							width={64}
 							height={64}
 							className="rounded-md"
-							src="/8c9f4ae2a222cbac75cf8a2fe1a0cdc7.png"
+							src="/persons/8c9f4ae2a222cbac75cf8a2fe1a0cdc7.png"
 							alt="Betty Profile Picture"
 						/>
-						<div className="flex flex-col justify-center ml-2">
+						<div className="flex flex-col justify-center ml-2 overflow-hidden">
 							<span className="font-bold">Betty</span>
-							<span className="font-light truncate">CSS Do-er</span>
+							<span className="font-light truncate">Project Manager</span>
 						</div>
 					</div>
 					<hr className="my-2 border-stone-400/50" />
-					<p className="text-stone-700">1/10 Coder</p>
+					<p className="text-stone-700">Passions: Work Life Balance</p>
 				</div>
 				<div className="bg-stone-300/70 w-64 max-w-64 max-h-64 rounded-md p-2">
 					<div className="flex flex-row">
@@ -93,16 +95,18 @@ export default function Page() {
 							width={64}
 							height={64}
 							className="rounded-md"
-							src="/46fcf2bffb7385b02a2b596fab6dd5ee.png"
+							src="/persons/46fcf2bffb7385b02a2b596fab6dd5ee.png"
 							alt="Eugene Profile Picture"
 						/>
-						<div className="flex flex-col justify-center ml-2">
+						<div className="flex flex-col justify-center ml-2 overflow-hidden">
 							<span className="font-bold">Eugene</span>
-							<span className="font-light truncate">Kernel Developer</span>
+							<span className="font-light truncate">
+								Jr. Frontend Developer
+							</span>
 						</div>
 					</div>
 					<hr className="my-2 border-stone-400/50" />
-					<p className="text-stone-700">7/10 Coder</p>
+					<p className="text-stone-700">Interests: SSR & TailwindCSS</p>
 				</div>
 				<div className="bg-stone-300/70 w-64 max-w-64 max-h-64 rounded-md p-2">
 					<div className="flex flex-row">
@@ -110,16 +114,16 @@ export default function Page() {
 							width={64}
 							height={64}
 							className="rounded-md"
-							src="/b46436b230499ca12141f334fa3a2754.png"
+							src="/persons/b46436b230499ca12141f334fa3a2754.png"
 							alt="Margaret Profile Picture"
 						/>
-						<div className="flex flex-col justify-center ml-2">
+						<div className="flex flex-col justify-center ml-2 overflow-hidden">
 							<span className="font-bold">Margaret</span>
-							<span className="font-light truncate">Java-CPU Developer</span>
+							<span className="font-light truncate">Analytics Specialist</span>
 						</div>
 					</div>
 					<hr className="my-2 border-stone-400/50" />
-					<p className="text-stone-700">-500/10 Coder</p>
+					<p className="text-stone-700">Passions: Privacy</p>
 				</div>
 				<div className="bg-stone-300/70 w-64 max-w-64 max-h-64 rounded-md p-2">
 					<div className="flex flex-row">
@@ -127,16 +131,18 @@ export default function Page() {
 							width={64}
 							height={64}
 							className="rounded-md"
-							src="/IMG_4050.jpg"
+							src="/persons/IMG_4050.jpg"
 							alt="Martha Profile Picture"
 						/>
-						<div className="flex flex-col justify-center ml-2">
+						<div className="flex flex-col justify-center ml-2 overflow-hidden">
 							<span className="font-bold">Martha</span>
-							<span className="font-light truncate">Python Skid</span>
+							<span className="font-light truncate">
+								Integrations Specialist
+							</span>
 						</div>
 					</div>
 					<hr className="my-2 border-stone-400/50" />
-					<p className="text-stone-700">Blocked & Reported</p>
+					<p className="text-stone-700">Interests: Browser Engines</p>
 				</div>
 			</div>
 
@@ -152,13 +158,23 @@ export default function Page() {
 								src="/basic-profile.png"
 								alt="Martha Profile Picture"
 							/>
-							<div className="flex flex-col justify-center ml-2">
-								<span className="font-bold">Senior Developer</span>
-								<span className="font-light truncate">1 Dabloon</span>
+							<div className="flex flex-col justify-center ml-2 overflow-hidden">
+								<span className="font-bold truncate">Serveless Developer</span>
+								<span className="font-light truncate">£48,000/annum</span>
 							</div>
 						</div>
 						<hr className="my-2 border-stone-400/50" />
-						<p className="text-stone-700">90yrs experience in React</p>
+						<div className="flex flex-col">
+							<h3>
+								<span className="font-medium">Requirements:</span>
+							</h3>
+							<ul className="pl-2 list-disc list-inside">
+								<li className="text-stone-700">AWS Lambda</li>
+								<li className="text-stone-700">NodeJS</li>
+								<li className="text-stone-700">php</li>
+								<li className="text-stone-700">Golang</li>
+							</ul>
+						</div>
 					</div>
 					<div className="bg-stone-300/70 w-64 max-w-64 max-h-64 rounded-md p-2">
 						<div className="flex flex-row">
@@ -169,13 +185,23 @@ export default function Page() {
 								src="/basic-profile.png"
 								alt="Martha Profile Picture"
 							/>
-							<div className="flex flex-col justify-center ml-2">
-								<span className="font-bold">Junior Developer</span>
-								<span className="font-light truncate">£Fish🐠</span>
+							<div className="flex flex-col max-h-20 justify-center ml-2 overflow-hidden">
+								<span className="font-bold truncate">Monolithic Developer</span>
+								<span className="font-light truncate">£60,000/annum</span>
 							</div>
 						</div>
 						<hr className="my-2 border-stone-400/50" />
-						<p className="text-stone-700">Leetcode required</p>
+						<div className="flex flex-col">
+							<h3>
+								<span className="font-medium">Requirements:</span>
+							</h3>
+							<ul className="pl-2 list-disc list-inside">
+								<li className="text-stone-700">Rust</li>
+								<li className="text-stone-700">CockroachDB / TiDB</li>
+								<li className="text-stone-700">Golang</li>
+								<li className="text-stone-700">TypeScript</li>
+							</ul>
+						</div>
 					</div>
 					<div className="bg-stone-300/70 w-64 max-w-64 max-h-64 rounded-md p-2">
 						<div className="flex flex-row">
@@ -186,13 +212,23 @@ export default function Page() {
 								src="/basic-profile.png"
 								alt="Martha Profile Picture"
 							/>
-							<div className="flex flex-col justify-center ml-2">
-								<span className="font-bold">Coffee Intern</span>
-								<span className="font-light truncate">Experience</span>
+							<div className="flex flex-col justify-center ml-2 overflow-hidden">
+								<span className="font-bold truncate">Apprenticeship</span>
+								<span className="font-light truncate">£30,000/annum</span>
 							</div>
 						</div>
 						<hr className="my-2 border-stone-400/50" />
-						<p className="text-stone-700">Must have long legs</p>
+						<div className="flex flex-col">
+							<h3>
+								<span className="font-medium">Requirements:</span>
+							</h3>
+							<ul className="pl-2 list-disc list-inside">
+								<li className="text-stone-700">Basic Programming</li>
+								<li className="text-stone-700 truncate">JavaScript / Python</li>
+								<li className="text-stone-700">Flexible Hours</li>
+								<li className="text-stone-700">Willing to learn</li>
+							</ul>
+						</div>
 					</div>
 					<div className="bg-stone-300/70 w-64 max-w-64 max-h-64 rounded-md p-2">
 						<div className="flex flex-row">
@@ -203,13 +239,23 @@ export default function Page() {
 								src="/basic-profile.png"
 								alt="Martha Profile Picture"
 							/>
-							<div className="flex flex-col justify-center ml-2">
-								<span className="font-bold">K9 Mascot</span>
-								<span className="font-light truncate">£2 per annum</span>
+							<div className="flex flex-col justify-center ml-2 overflow-hidden">
+								<span className="font-bold">Php Developer</span>
+								<span className="font-light truncate">£50,000/annum</span>
 							</div>
 						</div>
 						<hr className="my-2 border-stone-400/50" />
-						<p className="text-stone-700">Must be a good boy</p>
+						<div className="flex flex-col">
+							<h3>
+								<span className="font-medium">Requirements:</span>
+							</h3>
+							<ul className="pl-2 list-disc list-inside">
+								<li className="text-stone-700">Php</li>
+								<li className="text-stone-700">Laravel / Symphony</li>
+								<li className="text-stone-700">NodeJS</li>
+								<li className="text-stone-700">Git</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
