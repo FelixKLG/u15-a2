@@ -59,12 +59,11 @@ export default function Home() {
 
 			<div className="flex flex-col items-center mt-24">
 				<span className="font-medium text-lg">Who We work With</span>
-				<div className="flex flex-auto gap-4 mt-2 overflow-x-scroll relative select-none">
+				<div className="flex flex-auto gap-4 mt-2 overflow-x-auto relative select-none">
 					<Image
-						// For some stupid fucking reason this keeps spazzing out size wise... 😩
 						height={28}
 						width={96}
-						className="h-24 overflow-clip rounded-md bg-clip-padding"
+						className="h-24 overflow-clip rounded-md bg-clip-padding object-contain"
 						src="/brands/Amazon.svg"
 						alt="Amazon"
 					/>
